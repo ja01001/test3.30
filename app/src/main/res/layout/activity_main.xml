@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ja010.silsemp330.MainActivity">
+
+    <Button
+        android:onClick="clcl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="일반토스트 뜨기"
+        />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:id="@+id/text1"
+                android:text="x좌표"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+        </TableRow>
+        <TableRow
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/text2"
+                android:text="x좌표"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <EditText
+                android:id="@+id/ed2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:onClick="clcl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="중간에 토스트뜨게하기"
+        android:id="@+id/b2"/>
+
+    <Button
+        android:onClick="clcl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사용자화면지정"
+        android:id="@+id/b3"/>
+
+    <Button
+        android:onClick="clcl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        android:text="SNACKBAR 이용"/>
+    <Button
+        android:onClick="clcl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b5"
+        android:text="기본대화상자"/>
+    <Button
+        android:onClick="clcl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b6"
+        android:text="라디오대화상자"/>
+    <Button
+        android:onClick="clcl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b7"
+        android:text="체크박스대화상자"/>
+    <Button
+        android:onClick="clcl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b8"
+        android:text="사용자정의 대화상자"/>
+</LinearLayout>
